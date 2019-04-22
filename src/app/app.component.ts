@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  angular = ''
+
+  onClick() {
+    this.angular = '欢迎来到我的教学'
+  }
 }
